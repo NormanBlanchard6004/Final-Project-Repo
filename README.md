@@ -38,6 +38,7 @@ Base URL: http://localhost:8081/api/recipes
 | POST   |  /       | Create a new recipe   |
 | PUT    |  /{id}   | Update a recipe by ID |
 | DELETE |  /{id}   | Delete a recipe by ID |
+
 To create a recipe, a user must already exist in the database. Include the user ID in the JSON body like this:
 {
   "title": "Spaghetti",
