@@ -50,14 +50,3 @@ To create a recipe, a user must already exist in the database. Include the user 
   }
 }
 
-Project Structure
-src/
-├── main/
-│ ├── java/
-│ │ └── com.recipeshare
-│ │ ├── controller/ → RecipeController.java
-│ │ ├── entity/ → Recipe.java, User.java
-│ │ ├── repository/ → RecipeRepository.java, UserRepository.java
-│ │ └── service/ → RecipeService.java
-│ └── resources/
-│ └── application.properties
